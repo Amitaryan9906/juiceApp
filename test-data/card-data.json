@@ -1,0 +1,57 @@
+{
+  "validCard": {
+    "cardNumber": "4111111111111111",
+    "expYear": "2099",
+    "name": "Rahul",
+    "expMonth": "11",
+    "lastDigits": "1111"
+  },
+
+  "invalidShortCard": {
+    "cardNumber": "123456789012",
+    "expYear": "2099",
+    "name": "Rahul",
+    "expMonth": "11",
+    "error": "Please enter a valid sixteen digit card number."
+  },
+
+  "invalidLongCard": {
+    "cardNumber": "41111111111111111111",
+    "expYear": "2099",
+    "name": "Rahul",
+    "expMonth": "11",
+    "error": "Please enter a valid sixteen digit card number."
+  },
+
+  "emptyCard": {
+    "cardNumber": "",
+    "expYear": "2099",
+    "name": "Rahul",
+    "expMonth": "11",
+    "error": " Please enter your card number."
+  },
+
+  "expiredCard": {
+    "cardNumber": "4111111111112222",
+    "expYear": "2020",
+    "name": "Rahul",
+    "expMonth": "11",
+    "error": "Invalid"
+  },
+
+  "invalidMonth": {
+    "cardNumber": "4111111111113333",
+    "expYear": "2099",
+    "name": "Rahul",
+    "expMonth": "15",
+    "error": "Invalid"
+  },
+
+  "emptyName": {
+    "cardNumber": "4111111111114444",
+    "expYear": "2099",
+    "name": "",
+    "expMonth": "11",
+    "error": "Please provide a name."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "validLogin": {
+    "email": "damit5221+1@gmail.com",
+    "password": "amit790"
+  },
+
+  "invalidPassword": {
+    "email": "rahul.test123@gmail.com",
+    "password": "WrongPass123",
+    "error": "Invalid email or password."
+  },
+
+  "invalidEmailFormat": {
+    "email": "rahul.com",
+    "password": "Test@123",
+    "error": "Invalid email or password."
+  },
+
+  "emptyFields": {
+    "email": "",
+    "password": "",
+    "error": "Invalid email or password."
+  }
+}

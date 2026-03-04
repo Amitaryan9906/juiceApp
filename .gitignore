@@ -1,0 +1,11 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+juice-shop-playwright/test-data/card-data.json
+juice-shop-playwright/test-data/login-data.json
+juice-shop-playwright/test-data/new-user.json
